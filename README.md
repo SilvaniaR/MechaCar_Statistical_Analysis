@@ -7,11 +7,11 @@ The goal of the project is to analyze metrics that can affect the manufacturing 
 
 
 # Linear regression to predict MPG
-## 3 Key Takeaways:
 
 <img width="1440" alt="linear_regress_mechaCar" src="https://user-images.githubusercontent.com/93267002/161394530-5409bd8f-b651-4839-a85b-721e77649327.png">
 
-1. Variance of a non-random variable is usually 0. Therefore from statement we can say the intercept, vehicle_length, and ground_clearance coeeficients can be said to provide a non-random amount of variance to the mpg values as seen in the image above.
+## 3 Key Takeaways:
+1.Variance of a non-random variable is usually 0. Therefore from statement we can say the intercept, vehicle_length, and ground_clearance coeeficients can be said to provide a non-random amount of variance to the mpg values as seen in the image above.
 
 2.At a significance level of 0.05, due to the the three non-random varible we are able to reject the null hypothesis because of the extremely small p-value. The null hypothesis of a linear regression states that the slope (β1) is equal to 0. However, if we reject the null hypothesis, we're stating that alternative (β1 ≠ 0) is true. Thus, proving that the slope is not 0.
 
